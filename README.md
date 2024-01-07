@@ -18,7 +18,7 @@ This relies on two custom lua libraries, `mouseControl.dll` and `windowPropertie
 3. In the top settings bar, navigate to `Tools` > `Lua Scripting` > `New Lua Script Window...`
 4. In the new script window, click `Browse...` and select the `mph_mem.lua` file you extracted in the first step
 
-## Load Order
+## Load Order After Initial Setup
 1. Open the ROM
 2. Load the `mph_mem.lua` script
 
