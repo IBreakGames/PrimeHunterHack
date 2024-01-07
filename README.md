@@ -9,11 +9,10 @@ This relies on two custom lua libraries, `mouseControl.dll` and `windowPropertie
 
 # Setup
 ## Requirements
-- This script and libraries are currently only compatible with [DeSmuME 0.9.11 (x86)](https://www.emulatorgames.net/emulators/nintendo-ds/desmume-0911-32-bit/)
-- `lua51.dll` in the root directory of your DeSmuME folder
+- [DeSmuME 0.9.13](https://github.com/TASEmulators/desmume/releases/tag/release_0_9_13)
 
 ## Getting Started
-1. Download the latest release (or clone this repository) and extract the contents to the root directory of DeSmuME
+1. Download the latest release and extract the contents to the root directory of DeSmuME
 2. Open DeSmuME, navigate to `Tools` > `Lua Scripting` > `New Lua Script Window...`
 3. In the new script window, click `Browse...` and select the `mph_mem.lua` file you downloaded in the first step
 4. Load up the game, navigate to the in-game `Options` > `Controls` and set the control type to `Dual Mode Right` (In-game sensitivity does not affect the mouse cursor sensitivity)
@@ -24,8 +23,11 @@ In DeSmuME I have the following controls set:
 - `LEFT` is bound to `A`
 - `DOWN` is bound to `S`
 - `RIGHT` is bound to `D`
+- `B` is bound to `Up` (Up arrow key)
+- `A` is bound to `Left` (Left arrow key)
+- `Y` is bound to `Right` (Right arrow key)
+- `X` is bound to `Down` (Down arrow key)
 - `START` is bound to `Enter`
-- `SELECT` is bound to `Q`
 - `R` is bound to `Space`
 
 For the rest of the controls, they're located towards the top of the of the `mph_mem.lua` file as part of the `keyConfig` table: 
