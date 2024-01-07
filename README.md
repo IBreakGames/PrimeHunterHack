@@ -1,7 +1,7 @@
 # PrimeHunterHack
 Inspired by [PrimeHack](https://forums.dolphin-emu.org/Thread-fork-primehack-fps-controls-and-more-for-metroid-prime), PrimeHunterHack aims to add native keyboard and mouse support to Metroid Prime Hunters in order to make the game play more like a traditional PC FPS shooter.
 
-This relies on two custom lua libraries, `mouseControl.dll` and `windowProperties.dll`. They're very simple, but I've included the source code for to ease any concerns about malware.
+This relies on two custom lua libraries, `mouseControl.dll` and `windowProperties.dll`. They're very simple, but I've included the source code to ease any concerns about malware.
 
 # Main Features
 - Mouselock (only active when the emulator is in focus and not in a menu/cutscene)
