@@ -16,7 +16,7 @@ This relies on two custom lua libraries, `mouseControl.dll` and `windowPropertie
 1. Download the [latest release](https://github.com/IBreakGames/PrimeHunterHack/releases) and extract the contents to the root directory of DeSmuME
 2. Open DeSmuME, open the ROM, navigate to the in-game `Options` > `Controls` and set the control type to `Dual Mode Right` (In-game sensitivity does not affect the mouse cursor sensitivity)
 3. In the top settings bar, navigate to `Tools` > `Lua Scripting` > `New Lua Script Window...`
-4. In the new script window, click `Browse...` and select the `mph_mem.lua` file you downloaded in the first step
+4. In the new script window, click `Browse...` and select the `mph_mem.lua` file you extracted in the first step
 
 ## Load Order
 1. Open the ROM
