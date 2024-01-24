@@ -3,6 +3,9 @@ Inspired by [PrimeHack](https://forums.dolphin-emu.org/Thread-fork-primehack-fps
 
 This relies on two custom lua libraries, `mouseControl.dll` and `windowProperties.dll`. They're very simple, but I've included the source code to ease any concerns about malware.
 
+# Trailer
+[PrimeHunterHack Trailer](https://www.youtube.com/watch?v=LGFu4WgaFII)
+
 # Main Features
 - Mouselock (only active when the emulator is in focus and not in a menu/cutscene)
 - Customizable controls (currently in different places)
